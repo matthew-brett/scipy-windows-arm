@@ -59,6 +59,13 @@ Enable remote desktop (search for remote desktop settings, enable).
 Windows search for "lid" and select "Do Nothing" for close lid when powered
 (to use a server with lid closed).
 
+[Allow ping through
+firewall](https://www.technipages.com/how-to-allow-ping-windows-11-firewall):
+
+```powershell
+netsh advfirewall firewall add rule name="ICMP Allow incoming V4 echo request" protocol=icmpv4:8,any dir=in action=allow
+```
+
 ## Self-hosted runner
 
 See
