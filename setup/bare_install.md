@@ -58,3 +58,11 @@ Enable remote desktop (search for remote desktop settings, enable).
 
 Windows search for "lid" and select "Do Nothing" for close lid when powered
 (to use a server with lid closed).
+
+## Self-hosted runner
+
+See
+<https://github.com/matthew-brett/scipy-windows-arm/settings/actions/runners/new?arch=arm64&os=win>.
+I chose the defaults througout.
+
+The runner runs only on pushes to the `main` branch.
